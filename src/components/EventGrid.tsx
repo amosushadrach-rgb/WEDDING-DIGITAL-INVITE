@@ -80,14 +80,14 @@ export function EventGrid() {
                 <div className="text-[10px] uppercase tracking-[0.2em] text-[#580F6E] font-bold">
                   Part {idx + 1}
                 </div>
-                <h3 className="font-serif text-xl font-bold text-slate-900 leading-tight">
-                  {event.title}
-                </h3>
-                <p className="text-base md:text-lg text-slate-700 leading-8">
-                  {event.subtitle}
-                </p>
+              <h3 className="font-serif text-xl font-bold text-slate-900 leading-tight">
+  {event.title}
+</h3>
+<p className="font-serif text-base md:text-lg text-slate-700 leading-8">
+  {event.subtitle}
+</p>
 
-                <div className="space-y-4 flex-1">
+               <div className="space-y-4 flex-1">
                   <div className="flex gap-3 text-sm text-slate-700">
                     <span className="text-[#580F6E] mt-1"><CalendarSVG /></span>
                     <div>
@@ -113,8 +113,8 @@ export function EventGrid() {
                   <div className="flex gap-3 text-sm text-slate-700 pt-2 border-t border-slate-100">
                     <span className="text-[#580F6E] mt-1"><HangerSVG /></span>
                     <div>
-                      <p className="font-semibold text-[#580F6E] uppercase text-[9px] tracking-[0.15em]">Dress Code</p>
-                      <p className="text-slate-600 italic text-base mt-1 leading-relaxed">{event.dressCode}</p>
+                      <p className="font-semibold text-[#580F6E] uppercase text-[9px] tracking-[0.15em]">Dress Code</p
+                <p className="font-sans text-slate-500 text-xs font-semibold mt-0.5 leading-relaxed">{event.dressCode}</p>
                     </div>
                   </div>
                 </div>
